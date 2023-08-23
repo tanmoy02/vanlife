@@ -1,0 +1,15 @@
+# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+name: Deaploy dev with bitovi
+
+on:
+  push:
+    branches:
+      - 'dev'
+ 
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - id: build-publish
+      uses: bitovi/github-actions-react-to-github-pages@v1.2.0
+        path: dist

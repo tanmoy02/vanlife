@@ -1,4 +1,6 @@
-# React + Vite
+# A project with React Router 6
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ce027955-e870-497a-8a99-e326a4f39d19/deploy-status)](https://app.netlify.com/sites/tanmoy-vanlife/deploys)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

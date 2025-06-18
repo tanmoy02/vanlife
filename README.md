@@ -1,4 +1,4 @@
-# #vanlife
+# vanlife
 
 A project by Tanmoy Adhikary, built to demonstrate routing capabilities using React Router 6. This application is themed around the "van life" lifestyle, allowing users to explore different van options and learn more about the concept.
 

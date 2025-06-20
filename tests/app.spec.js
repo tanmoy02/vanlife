@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-const BASE_URL = 'http://localhost:5173'; // Assuming Vite's default dev server port
+const BASE_URL = process.env.PLAYWRIGHT_TEST_BASE_URL || 'http://localhost:5173'; // Default to local dev server
 
 test.describe('Van Life App Navigation and Content', () => {
   test('should load the home page correctly', async ({ page }) => {
